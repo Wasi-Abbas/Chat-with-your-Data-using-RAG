@@ -1,0 +1,22 @@
+# install everything by running: pip install -r requirements.txt
+
+streamlit>=1.36.0
+ollama>=0.1.8
+langchain>=0.2.0
+langchain-community>=0.2.0
+chromadb>=0.4.22
+sentence-transformers>=2.7.0
+pypdf>=4.2.0
+
+# streamlit → for your UI.
+
+# ollama → Python client for Ollama.
+
+# langchain + langchain-community → core + community integrations (PyPDFLoader, Chroma, etc.).
+
+# chromadb → backend for vector store.
+
+# sentence-transformers → for HuggingFace embeddings (all-MiniLM-L6-v2).
+
+# pypdf → required by PyPDFLoader internally.
+
